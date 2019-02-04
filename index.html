@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Han Wang Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to my portfolio!" />
+    <meta name="keywords" content="Han Wang, Hanny Wang, Wang, Han" />
+    <meta name="author" content="Han Wang">
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="css/assets.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+        
+   
+</head>
+
+
+<body class="hidden bg-change">
+	
+    <!-- Page Content -->
+    <div id="page-content">
+    
+        <!-- Header -->
+        <header class="hidden">
+        
+            <!-- Logo -->
+            <div id="logo">
+                <a href="index.html">
+                    <img class="black-logo" src="images/logo.png" alt="Logo Black">
+                    <img class="white-logo" src="images/logo-white.png" alt="Logo White">
+                </a>
+            </div>
+            <!--/Logo -->
+            
+	    <!-- Loader Mask -->
+            <div id="loader-mask" class="disable">
+                <div id="loader"></div>
+            </div>
+	    <!--/Loader Mask -->
+            
+	    <!-- Close Project -->
+            <div id="close-project" class="disable">
+                <span></span>
+                <span></span>
+            </div>
+	    <!-- Close Project -->
+        
+        </header>
+        <!--/Header -->
+        
+        
+        <!-- Main -->
+        <div id="main">
+                
+            <!-- Showcase Gallery -->
+            <div id="showcase-gallery">                
+                <div class="showcase-img light-content" data-aux="project-01" data-src="images/p1.jpg"></div>
+                <div class="showcase-img" data-aux="project-02" data-src="images/p2.jpg"></div>
+                <div class="showcase-img light-content" data-aux="project-03" data-src="images/p3.jpg"></div>
+                <div class="showcase-img" data-aux="project-04" data-src="images/p4.jpg"></div>
+                <div class="showcase-img light-content" data-aux="project-05" data-src="images/p5.jpg"></div>
+                <div class="showcase-img light-content" data-aux="project-06" data-src="images/p6.jpg"></div>                
+            </div>
+            <!--/Showcase Gallery -->
+            
+	    <!-- Main Content-->
+            <div id="main-content">
+            	
+                <!-- Intro Section -->
+                <div id="intro">
+                    <div class="outer">
+                        <div class="inner">
+                            
+                            <div class="pretitle-intro">Hey there! 👋</div> 
+                            
+                            <h1 class="cd-headline title-intro letters type">
+                                <span>My name is Han Wang, and</span><span>I am</span><span class="cd-words-wrapper waiting">
+                                <b class="is-visible">a proud Cornellian</b><b>an InfoSci major</b><b>applying to CDS</b>.</span>
+		                      </h1>                     
+                            
+       			    <div class="subtitle-intro">You are now scrolling a screen design collection of digital products <br class="destroy">I have been creating for brands and people.</div>                            
+                            <div class="scroll-down disable">
+                                <div class="arrow-top"></div>
+                    		<div class="arrow-top-line"></div>
+                            </div>                        
+                        </div>
+                    </div>
+		          </div>                    
+                <!--/Intro Section -->
+                
+                <!-- Showcase List -->
+                <div id="showcase">
+                    <div class="outer">
+                        <div class="inner">
+                            <ul class="showcase-list">
+                                <li><a data-url="project1.html" data-aux="project-01">VanHack Technologies<span>Technical Intern (Backend Design)</span></a></li>
+                                <li><a data-url="project2.html" data-aux="project-02">CSchedule<span>Web App (In Development)</span></a></li>
+                                <li><a data-url="project3.html" data-aux="project-03">Agenda<span>IOS App</span></a></li>
+                                <li><a data-url="project4.html" data-aux="project-04">BQR Scanner<span>IOS App</span></a></li>
+                                <li><a data-url="project5.html" data-aux="project-05">Breakers<span>IOS App</span></a></li>
+                                <li><a data-url="project6.html" data-aux="project-06">Find Your Forte<span>Website</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--/Showcase List -->
+                
+                
+                <!-- Contact Section -->
+                <div id="contact">
+                
+                    <h4>Let's Talk</h4>
+                    <p>Tell me about your project or just say hello</p>
+                
+                    <!-- Contact Formular -->
+                    <div id="contact-formular">
+                    
+                    	<div id="message"></div>
+                    	                    
+                        <form method="post" action="contact.php" name="contactform" id="contactform">                             
+                            <div class="name-box">        
+                                <input name="name" type="text" id="name" size="30"  onfocus="if(this.value == 'Full Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Full Name'; }" value="Full Name" ><label class="input_label"></label>
+                            </div>                                                        
+                            <div class="email-box">
+                                <input name="email" type="text" id="email" size="30" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }" value="E-mail" ><label class="input_label"></label>
+                            </div>                            
+                            <div class="message-box">
+                                <textarea name="comments" cols="40" rows="4" id="comments" onfocus="if(this.value == 'Your Message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Message'; }" >Your Message</textarea><label class="input_label slow"></label>
+                            </div>                             
+                             <div class="submit-box">             
+                                <input type="submit" class="send_message cillar-button" id="submit" value="Submit" /> 
+                            </div>
+                        </form>                 
+                    </div>
+                    <!--/Contact Formular -->
+                  
+                    <!--
+                    <p><strong>I'm Social</strong><br>
+                        <a target="_blank" href="https://facebook.com/clapat.ro" class="link"><span>Facebook</span></a>, 
+                        <a target="_blank" href="https://dribbble.com/ClaPat" class="link"><span>Dribbble</span></a>, 
+                        <a target="_blank" href="https://twitter.com/clapatdesign" class="link"><span>Twitter</span></a>, 
+                        <a target="_blank" href="https://www.behance.net/clapat" class="link"><span>Behance</span></a>
+                    </p>
+                    -->
+                    
+                    <p class="copyright">Made with ❤ by Han Wang.</p>
+                
+                </div>
+                <!--/Contact Section -->
+            
+                        
+            </div>
+	    <!--/Main Content -->
+
+        </div>
+        <!--/Main --> 
+        
+        <!-- Project Holder -->
+        <div id="project-holder">
+            <div id="project-data"></div>
+        </div>
+	<!--/Project Holder -->
+ 
+	</div>    
+	<!--/Page Content -->
+   
+    
+		
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+
+</body>
+
+</html>
