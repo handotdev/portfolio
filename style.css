@@ -1,8 +1,5 @@
 /*------------------------------------------------------------------
-Project:	Herman - The Ultimate Portfolio Template
-Version:	1.0
-Last change:	25/05/2017
-Assigned to:	ClaPat 
+Project:	Portfolio
 Primary use:	Showcase Portfolio 
 -------------------------------------------------------------------*/
 
@@ -1080,7 +1077,7 @@ Primary use:	Showcase Portfolio
 	}
 
     .title-intro em {
-        color: #E69637;
+        color: #e69637;
     }
 	
 	.subtitle-intro span {
@@ -1100,6 +1097,18 @@ Primary use:	Showcase Portfolio
 		opacity:1;
 		padding-top:0;
 	}
+
+    .social-icons {
+        font-size:31px;
+    }
+
+    .linkedIn:hover {
+        color: #0077b5;
+    }
+
+    .github:hover {
+        color: #c9510c;
+    }
 	
 	.scroll-down {
 		border:2px solid #ddd;
