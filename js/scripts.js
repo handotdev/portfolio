@@ -141,8 +141,8 @@ var animationDelay = 2500,
             $('i.in').css('color','#b31b1b');
         } else if($word.text().indexOf("InfoSci") >= 0){
             $('i.in').css('color','orange');
-        } else if($word.text().indexOf("CDS") >= 0){
-            $('i.in').css('color','#470db9');
+        } else if($word.text().indexOf("1998") >= 0){
+            $('i.in').css('color','#383838');
         }
 	}
 
