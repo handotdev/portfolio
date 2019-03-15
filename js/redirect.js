@@ -1,4 +1,3 @@
 function openInNewTab(url) {
-  var win = window.open(url, '_blank');
-  setTimeout(function(){win.focus()}, 5000);
+  setTimeout(function(){var win = window.open(url, '_blank')}, 5000);
 }
