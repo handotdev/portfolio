@@ -1,171 +1,289 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Han Wang Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Welcome to my portfolio!" />
     <meta name="keywords" content="Han Wang, Hanny Wang, Wang, Han" />
-    <meta name="author" content="Han Wang">
+    <meta name="author" content="Han Wang" />
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link href="style.css" rel="stylesheet" />
     <link href="css/assets.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
-    <script src="https://www.havepeople.com/connector.js"></script>
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script async src="https://app.havepeople.com/connector.js"></script>
+  </head>
 
-<body class="hidden bg-change">
-
+  <body class="hidden bg-change">
     <!-- Page Content -->
     <div id="page-content">
-
-        <!-- Header -->
-        <header class="hidden">
-
-            <!-- Logo -->
-            <div id="logo">
-                <a href="index.html">
-                    <img class="black-logo" src="images/logo.png" alt="Logo Black">
-                    <img class="white-logo" src="images/logo-white.png" alt="Logo White">
-                </a>
-            </div>
-            <!--/Logo -->
-
-	    <!-- Loader Mask -->
-            <div id="loader-mask" class="disable">
-                <div id="loader"></div>
-            </div>
-	    <!--/Loader Mask -->
-
-	    <!-- Close Project -->
-            <div id="close-project" class="disable">
-                <span></span>
-                <span></span>
-            </div>
-	    <!-- Close Project -->
-
-        </header>
-        <!--/Header -->
-
-
-        <!-- Main -->
-        <div id="main">
-
-            <!-- Showcase Gallery -->
-            <div id="showcase-gallery">
-                <div class="showcase-img" data-aux="project-01" data-src="images/p1.jpg"></div>
-                <div class="showcase-img light-content" data-aux="project-02" data-src="images/p2.jpg"></div>
-                <div class="showcase-img" data-aux="project-03" data-src="images/p3.jpg"></div>
-                <div class="showcase-img light-content" data-aux="project-04" data-src="images/p4.jpg"></div>
-                <div class="showcase-img" data-aux="project-05" data-src="images/p5.jpg"></div>
-                <div class="showcase-img light-content" data-aux="project-06" data-src="images/p6.jpg"></div>
-                <div class="showcase-img light-content" data-aux="project-07" data-src="images/p7.jpg"></div>
-                <div class="showcase-img" data-aux="project-08" data-src="images/p8.jpg"></div>
-            </div>
-            <!--/Showcase Gallery -->
-
-	           <!-- Main Content-->
-            <div id="main-content">
-
-                <!-- Intro Section -->
-                <div id="intro">
-                    <div class="outer">
-                        <div class="inner">
-
-                            <div class="pretitle-intro">Hey there! 👋</div>
-
-                            <h1 class="title-intro cd-headline letters type">
-                                <span>My name is Han Wang, and</span><span>I am</span><span class="cd-words-wrapper waiting">
-                                <b class="is-visible">a proud Cornellian</b><b>an InfoSci major</b><b>trying my best..</b>.</span>
-		                      </h1>
-
-                            <div class="social-icons">
-                                <a href="https://www.linkedin.com/in/han-y-wang/"><i class="fa fa-linkedin-square linkedIn"></i></a>
-                                <a href="https://github.com/hanywang2"><i class="fa fa-github github"></i></a>
-                            </div>
-
-                            <div class="scroll-down disable">
-                                <div class="arrow-top"></div>
-                    		<div class="arrow-top-line"></div>
-                            </div>
-                        </div>
-                    </div>
-		          </div>
-                <!--/Intro Section -->
-
-                <!-- Showcase List -->
-                <div id="showcase">
-                    <div class="outer">
-                        <div class="inner">
-                            <ul class="showcase-list">
-                                <li><a data-url="project-page.html" data-aux="project-01" onclick="openInNewTab('https://itunes.apple.com/us/app/breakers/id1096493864');">Facebook<span>Incoming Software Engineer Intern</span></a></li>
-                                <li><a data-url="project-page.html" data-aux="project-02" onclick="openInNewTab('https://www.eranyc.com/2019/06/17/nycs-entrepreneurs-roundtable-accelerator-announces-participants-summer-2019-program-companies-receive-100000-investments/');">FoodFul Inc.<span>Co-Founder & CPO</span></a></li>
-                                <li><a data-url="project-page.html" data-aux="project-03" onclick="openInNewTab('https://www.vanhack.com/');">VanHack Technologies<span>Technical Intern (Backend Design)</span></a></li>
-                                <li><a data-url="project-page.html" data-aux="project-04" onclick="openInNewTab('https://www.courseplan.io');">CoursePlan.io<span>Web App</span></a></li>
-                                <li><a data-url="project-page.html" data-aux="project-05" onclick="openInNewTab('https://unicreative.co');">Cornell Creatives<span>Website</span></a></li>
-                                <li><a data-url="project-page.html" data-aux="project-06" onclick="openInNewTab('https://itunes.apple.com/us/app/bqr-scanner-bar-qr-reader/id1293094475');">BQR Scanner<span>IOS App</span></a></li>
-                                <li><a data-url="project-page.html" data-aux="project-07" onclick="openInNewTab('https://www.npmjs.com/package/hanny');">Hanny<span>NPM Package</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--/Showcase List -->
-
-
-                <!-- Contact Section -->
-                <div id="contact">
-
-                    <h4>Let's Talk</h4>
-                    <p>I swear I'm friendly.</p>
-
-                    <!-- Contact Formular -->
-                    <div id="contact-formular">
-
-                    	<div id="message"></div>
-
-                        <form method="post" action="contact.php" name="contactform" id="contactform">
-                            <div class="name-box">
-                                <input name="name" type="text" id="name" size="30"  onfocus="if(this.value == 'Full Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Full Name'; }" value="Full Name" ><label class="input_label"></label>
-                            </div>
-                            <div class="email-box">
-                                <input name="email" type="text" id="email" size="30" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }" value="E-mail" ><label class="input_label"></label>
-                            </div>
-                            <div class="message-box">
-                                <textarea name="comments" cols="40" rows="4" id="comments" onfocus="if(this.value == 'Your Message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Message'; }" >Your Message</textarea><label class="input_label slow"></label>
-                            </div>
-                             <div class="submit-box">
-                                <input type="submit" class="send_message cillar-button" id="submit" value="Submit" />
-                            </div>
-                        </form>
-                    </div>
-                    <!--/Contact Formular -->
-
-                    <p class="copyright">Made with ❤ by Han Wang. Built from Hermann.</p>
-
-                </div>
-                <!--/Contact Section -->
-
-
-            </div>
-	          <!--/Main Content -->
-
+      <!-- Header -->
+      <header class="hidden">
+        <!-- Logo -->
+        <div id="logo">
+          <a href="index.html">
+            <img class="black-logo" src="images/logo.png" alt="Logo Black" />
+            <img
+              class="white-logo"
+              src="images/logo-white.png"
+              alt="Logo White"
+            />
+          </a>
         </div>
-        <!--/Main -->
+        <!--/Logo -->
 
-        <!-- Project Holder -->
-        <div id="project-holder">
-            <div id="project-data"></div>
+        <!-- Loader Mask -->
+        <div id="loader-mask" class="disable">
+          <div id="loader"></div>
         </div>
-	<!--/Project Holder -->
+        <!--/Loader Mask -->
 
-	</div>
-	<!--/Page Content -->
+        <!-- Close Project -->
+        <div id="close-project" class="disable">
+          <span></span>
+          <span></span>
+        </div>
+        <!-- Close Project -->
+      </header>
+      <!--/Header -->
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Showcase Gallery -->
+        <div id="showcase-gallery">
+          <div
+            class="showcase-img"
+            data-aux="project-01"
+            data-src="images/p1.jpg"
+          ></div>
+          <div
+            class="showcase-img light-content"
+            data-aux="project-02"
+            data-src="images/p2.jpg"
+          ></div>
+          <div
+            class="showcase-img"
+            data-aux="project-03"
+            data-src="images/p3.jpg"
+          ></div>
+          <div
+            class="showcase-img light-content"
+            data-aux="project-04"
+            data-src="images/p4.jpg"
+          ></div>
+          <div
+            class="showcase-img"
+            data-aux="project-05"
+            data-src="images/p5.jpg"
+          ></div>
+          <div
+            class="showcase-img light-content"
+            data-aux="project-06"
+            data-src="images/p6.jpg"
+          ></div>
+          <div
+            class="showcase-img light-content"
+            data-aux="project-07"
+            data-src="images/p7.jpg"
+          ></div>
+          <div
+            class="showcase-img"
+            data-aux="project-08"
+            data-src="images/p8.jpg"
+          ></div>
+        </div>
+        <!--/Showcase Gallery -->
+
+        <!-- Main Content-->
+        <div id="main-content">
+          <!-- Intro Section -->
+          <div id="intro">
+            <div class="outer">
+              <div class="inner">
+                <div class="pretitle-intro">Hey there! 👋</div>
+
+                <h1 class="title-intro cd-headline letters type">
+                  <span>My name is Han Wang, and</span><span>I am</span
+                  ><span class="cd-words-wrapper waiting">
+                    <b class="is-visible">a proud Cornellian</b
+                    ><b>an InfoSci major</b><b>trying my best..</b>.</span
+                  >
+                </h1>
+
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/han-y-wang/"
+                    ><i class="fa fa-linkedin-square linkedIn"></i
+                  ></a>
+                  <a href="https://github.com/hanywang2"
+                    ><i class="fa fa-github github"></i
+                  ></a>
+                </div>
+
+                <div class="scroll-down disable">
+                  <div class="arrow-top"></div>
+                  <div class="arrow-top-line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Intro Section -->
+
+          <!-- Showcase List -->
+          <div id="showcase">
+            <div class="outer">
+              <div class="inner">
+                <ul class="showcase-list">
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-01"
+                      onclick="openInNewTab('https://itunes.apple.com/us/app/breakers/id1096493864');"
+                      >Facebook<span>Incoming Software Engineer Intern</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-02"
+                      onclick="openInNewTab('https://www.eranyc.com/2019/06/17/nycs-entrepreneurs-roundtable-accelerator-announces-participants-summer-2019-program-companies-receive-100000-investments/');"
+                      >FoodFul Inc.<span>Co-Founder & CPO</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-03"
+                      onclick="openInNewTab('https://www.vanhack.com/');"
+                      >VanHack Technologies<span
+                        >Technical Intern (Backend Design)</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-04"
+                      onclick="openInNewTab('https://www.courseplan.io');"
+                      >CoursePlan.io<span>Web App</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-05"
+                      onclick="openInNewTab('https://unicreative.co');"
+                      >Cornell Creatives<span>Website</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-06"
+                      onclick="openInNewTab('https://itunes.apple.com/us/app/bqr-scanner-bar-qr-reader/id1293094475');"
+                      >BQR Scanner<span>IOS App</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-url="project-page.html"
+                      data-aux="project-07"
+                      onclick="openInNewTab('https://www.npmjs.com/package/hanny');"
+                      >Hanny<span>NPM Package</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--/Showcase List -->
+
+          <!-- Contact Section -->
+          <div id="contact">
+            <h4>Let's Talk</h4>
+            <p>I swear I'm friendly.</p>
+
+            <!-- Contact Formular -->
+            <div id="contact-formular">
+              <div id="message"></div>
+
+              <form
+                method="post"
+                action="contact.php"
+                name="contactform"
+                id="contactform"
+              >
+                <div class="name-box">
+                  <input
+                    name="name"
+                    type="text"
+                    id="name"
+                    size="30"
+                    onfocus="if(this.value == 'Full Name') { this.value = ''; }"
+                    onblur="if(this.value == '') { this.value = 'Full Name'; }"
+                    value="Full Name"
+                  /><label class="input_label"></label>
+                </div>
+                <div class="email-box">
+                  <input
+                    name="email"
+                    type="text"
+                    id="email"
+                    size="30"
+                    onfocus="if(this.value == 'E-mail') { this.value = ''; }"
+                    onblur="if(this.value == '') { this.value = 'E-mail'; }"
+                    value="E-mail"
+                  /><label class="input_label"></label>
+                </div>
+                <div class="message-box">
+                  <textarea
+                    name="comments"
+                    cols="40"
+                    rows="4"
+                    id="comments"
+                    onfocus="if(this.value == 'Your Message') { this.value = ''; }"
+                    onblur="if(this.value == '') { this.value = 'Your Message'; }"
+                  >
+Your Message</textarea
+                  ><label class="input_label slow"></label>
+                </div>
+                <div class="submit-box">
+                  <input
+                    type="submit"
+                    class="send_message cillar-button"
+                    id="submit"
+                    value="Submit"
+                  />
+                </div>
+              </form>
+            </div>
+            <!--/Contact Formular -->
+
+            <p class="copyright">
+              Made with ❤ by Han Wang. Built from Hermann.
+            </p>
+          </div>
+          <!--/Contact Section -->
+        </div>
+        <!--/Main Content -->
+      </div>
+      <!--/Main -->
+
+      <!-- Project Holder -->
+      <div id="project-holder">
+        <div id="project-data"></div>
+      </div>
+      <!--/Project Holder -->
+    </div>
+    <!--/Page Content -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/redirect.js"></script>
-
-</body>
+  </body>
 </html>
